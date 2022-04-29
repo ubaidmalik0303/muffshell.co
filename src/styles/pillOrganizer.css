@@ -1,0 +1,24 @@
+#pill-organizer{
+    position: relative;
+}
+
+/* #pill-organizer::after{
+    content: "";
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    background-color: #412722;
+    height: 200px;
+    max-width: 100%;
+    position: absolute;
+    bottom: -199px;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+} */
+
+.bg-412722{
+    background-color: #412722;
+}
+
+span{
+    color: blue;
+}

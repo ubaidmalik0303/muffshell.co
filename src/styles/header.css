@@ -1,0 +1,99 @@
+.header {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-text {
+  color: white;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.navbar ul li a:hover {
+  color: rgb(170, 22, 22);
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons > div {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#toggle-check{
+  display: none;
+}
+
+.toggle-icon{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  .toggle-icon{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+  }
+
+  .navbar{
+    display: none;
+  }
+
+  .social-icons{
+    display: none;
+  }
+
+  #toggle-check:checked ~ .navbar, #toggle-check:checked ~ .social-icons{
+    display: flex;
+  }
+
+  .header > div {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar ul li {
+    margin: 10px 0;
+  }
+
+  .social-icons {
+    padding: 20px 0;
+  }
+}

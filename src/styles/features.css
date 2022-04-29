@@ -1,0 +1,25 @@
+.feature-section{
+  background-color: rgb(0, 214, 114);
+}
+
+.feature-section h4{
+  color: white;
+  font-weight: bolder;
+  font-style: italic;
+
+}
+
+.feature-card{
+  background-color: rgb(231, 231, 231);
+  border: 1px solid rgba(230, 230, 230, 0.568);
+  border-radius: 5px;
+}
+
+.feature-card h5{
+  color: blue;
+  font-weight: bolder;
+}
+
+.feature-card p{
+  font-weight: bold;
+}

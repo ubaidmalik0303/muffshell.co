@@ -1,0 +1,27 @@
+body{
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.font-size-sm{
+    font-size: 1rem;
+}
+
+.font-size-md{
+    font-size: 1.5rem;
+}
+
+.font-size-lg{
+    font-size: 2rem;
+}
+
+.font-size-xlg{
+    font-size: 2.5rem;
+}

@@ -1,0 +1,26 @@
+.brand-section h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin: 40px 0;
+    color: black;
+}
+.brand-section h1 span{
+    color: rgb(33, 52, 224);
+}
+
+.purchase-now-btn{
+    background-color: white;
+    outline: none;
+    outline: 2px solid white;
+    border: 2px solid rgb(172, 29, 29);
+    padding: 10px 20px;
+    margin-top: auto;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s linear;
+}
+
+.purchase-now-btn:hover{
+    background-color: rgba(0, 0, 0, 0.342);
+    transform: scale(1.1);
+}
