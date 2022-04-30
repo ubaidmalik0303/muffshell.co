@@ -5,8 +5,8 @@ import { FaPinterest, FaInstagram, FaFacebook, FaBars } from "react-icons/fa"
 const Header = () => {
   return (
     <header className='container-fluid header'>
-        <label htmlFor="toggle-check">
-            <FaBars className='toggle-icon' size={30} color="white" />
+        <label htmlFor="toggle-check" className='toggle-icon'>
+            <FaBars size={30} color="white" />
         </label>
         <div className="container">
             <div className='logo-text'>MuffShell</div>
