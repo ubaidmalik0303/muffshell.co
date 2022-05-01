@@ -18,7 +18,7 @@ const VideoSection = () => {
           </div>
           <div className="col-md-6">
             <Slide right>
-              <h3 className='font-size-xlg text-white border-bottom'>MAKE YOUR<span> PILLS </span>EASY TO SWALLOW</h3>
+              <h3 className='font-size-xlg text-white border-bottom'>MAKE YOUR PILLS EASY TO SWALLOW</h3>
               <p className='text-white font-size-md'>This Pill crusher grinder can pulverize pills at once.It effortlessly crushes your medication into fine powder, which makes it easier to swallow, and will help a lot in digestion and absorption.</p>
             </Slide>
           </div>

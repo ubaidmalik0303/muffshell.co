@@ -19,12 +19,6 @@ const ImageCarousel = () => {
                         alt='pill case'
                     />
                 </Carousel.Item>
-                <Carousel.Item>
-                    <StaticImage
-                        src='../images/muffshell-slider1.jpg'
-                        alt='medicine organizer'
-                    />
-                </Carousel.Item>
             </Carousel>
         </div>
     )

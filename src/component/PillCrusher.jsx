@@ -11,7 +11,7 @@ const PillCrusher = () => {
                 <div className="row justify-content-center align-items-center">
                     <div className="col-md-7 py-5">
                         <Slide left>
-                            <h2 className='font-size-xlg text-white border-bottom pb-2 mb-3'><span>MuffShell </span>Pill Crusher</h2>
+                            <h2 className='font-size-xlg text-white border-bottom pb-2 mb-3'>MuffShell Pill Crusher</h2>
                             <p className='text-white font-size-md'>Muffshell Pill Crusher is constructed in such a way that makes crushing multiple pills at once not only convenient but easy. The pill crushing system is simple to use and can be operated with ease. Gradually apply more pressure until the pills have fully converted into powder form.</p>
                         </Slide>
                     </div>
@@ -20,7 +20,6 @@ const PillCrusher = () => {
                             <StaticImage
                                 src='../images/pill-crusher.jpg'
                                 width={400}
-                                imgClassName="border-bottom border-top py-3"
                                 alt='pill crusher'
                             />
                         </Slide>
